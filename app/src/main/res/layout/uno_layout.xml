@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <Switch
+        android:text="Radians"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radians"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="18dp"
+        android:fontFamily="sans-serif"
+        android:textSize="17dp"
+        android:background="@drawable/button_second"
+        android:textColor="#ffffff" />
+
+    <Switch
+        android:text="Vibration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vibration"
+        android:fontFamily="sans-serif"
+        android:padding="18dp"
+        android:textSize="17dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/radians"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/button_second"
+         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:fontFamily="sans-serif"
+        android:background="@drawable/button_second"
+        android:textAllCaps="false"
+        android:id="@+id/customLayoutCancel"
+        android:layout_weight="0.50"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#ffffff"
+        android:textSize="17dp"
+        android:layout_below="@+id/vibration"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
